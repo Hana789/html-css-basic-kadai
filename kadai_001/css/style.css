@@ -1,0 +1,102 @@
+body {
+   font-family: font-family: "Noto Sans JP", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;;
+   color: #000000;
+   background-color: #ffffff;
+   font-size: 18px; 
+   
+   margin: 0 auto;
+}
+.index-h3 {
+   font-size: 34px;
+   text-align: center;
+}
+#surrounded {
+   border: black 1.5px solid;
+   font-size: 28px;
+   padding: 0 10px;
+}
+#selfee {
+   border-radius: 50%;
+}
+nav {
+   max-width: 960px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0 10px;
+}
+#camera {
+   width: 100%;
+   margin: 0 auto;
+}
+#nav-a > a{
+   text-decoration: none;
+   color: #000;
+   font-weight: bold;
+   padding: 0 10px;
+   font-size: 21px;
+
+}
+#nav-a>a:hover {
+   text-decoration: underline;
+}
+#about3 > h4 {
+   font-size: 24px;
+}
+#about3 {
+   margin: -40px 20px 0;
+}
+#camera {
+   width: 100%;
+}
+#about > h4 {
+   font-size: 24px;
+}
+#about {
+   max-width: 960px;
+   margin: 80px auto 40px auto;
+}
+.work > p {
+   margin-top: -5px;
+}
+#about2 {
+   text-align: center;
+}
+footer {
+   text-align: center;
+}
+
+/* 画面幅が768px以上のとき */
+@media screen and (min-width: 768px) {
+   
+   nav {
+      max-width: 960px;
+      margin: 0 auto;
+   }
+  #about3 {
+   margin-top: 20px;
+   margin-left: 110px;
+  }
+   #about-container {
+      display: flex;
+   }
+   #works-container {
+      max-width: 960px;
+      margin: 0 auto;
+      display: flex;
+      
+	justify-content: center;
+   }
+   .work {
+      display: inline-block;
+      margin-right: 20px;
+   }
+   #nav-a > a, #surrounded {
+      font-size: 34px;
+   }
+ }
+ 
+
